@@ -132,7 +132,7 @@ task.delay(2, function()
 end)
 
 -- 🟡 ตั้งชื่อสัตว์ที่ต้องการหา
-local targetPetNames = {
+local targetPetNames = _G.TargetPets or {
     "Dragonfly",
     "Queen Bee",
     "Raccoon",
