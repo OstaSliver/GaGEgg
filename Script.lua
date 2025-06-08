@@ -156,7 +156,7 @@ local function hasAnyTargetPet(petList)
 end
 
 -- ⏳ ตรวจหลัง eggPets โหลดแล้ว
-task.delay(5, function()
+task.delay(10, function()
     local petList = getCurrentMapPetNames()
     if #petList > 0 then
         createPetListUI(petList)
