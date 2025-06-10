@@ -137,7 +137,9 @@ local targetPetNames = _G.TargetPets or {
     "Queen Bee",
     "Raccoon",
     "Disco Bee",
-    "Butterfly"
+    "Butterfly",
+    "Turtle",
+    "Red Fox"
 }
 
 -- 🔍 ฟังก์ชันเช็คว่า petList มีสัตว์ที่อยู่ใน targetPetNames ไหม
